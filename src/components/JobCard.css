@@ -1,0 +1,63 @@
+/* JobCard.css */
+
+/* Container for the job card */
+.job-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 15px 0;
+    transition: transform 0.2s ease-in-out;
+    width: 50%;
+  }
+  
+  .job-card:hover {
+    transform: translateY(-5px); /* Subtle hover effect */
+  }
+  
+  /* Job title styling */
+  .job-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  /* Styling for paragraphs and labels */
+  .job-card p {
+    font-size: 14px;
+    margin: 5px 0;
+    color: #555;
+  }
+  
+  .job-card strong {
+    color: #007bff;
+  }
+  
+  /* Company logo styling */
+  .company-logo {
+    max-width: 150px;
+    margin-top: 10px;
+    border-radius: 8px;
+  }
+  
+  /* Styling for badges section */
+  .badges {
+    margin-top: 15px;
+  }
+  
+  .badges ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .badges li {
+    background-color: #f1f1f1;
+    border-radius: 20px;
+    padding: 5px 15px;
+    margin-right: 10px;
+    display: inline-block;
+    font-size: 12px;
+    color: #333;
+  }
+  
