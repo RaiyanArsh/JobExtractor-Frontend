@@ -21,6 +21,7 @@ Enter a job title or keyword in the search bar.
 Use the format:
 
 Single-word job: developer
+
 Two-word job: software-engineer
 
 Click the "Search" button.
