@@ -17,14 +17,19 @@ npm run dev
 Search for Jobs:
 
 Enter a job title or keyword in the search bar.
+
 Use the format:
+
 Single-word job: developer
 Two-word job: software-engineer
+
 Click the "Search" button.
+
 View Results:
 
 The application will fetch job listings and display them as cards.
 If no jobs are found, a message will be shown.
+
 Loading Indicator:
 
 While the app fetches job data, a spinner will be displayed.
