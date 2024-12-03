@@ -3,13 +3,13 @@
 /* Container for the search bar */
 .search-container {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
+    justify-content: space-between;
     padding: 10px;
     border-radius: 8px;
     background-color: #f4f4f9;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    height: auto;
+    margin-bottom: 10px;
   }
   
   /* Input field styles */
@@ -20,6 +20,7 @@
     border-radius: 8px;
     width: 250px;
     outline: none;
+    margin-right: 10px;
     transition: border 0.3s;
   }
   

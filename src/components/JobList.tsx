@@ -16,13 +16,23 @@ interface JobListProps {
 }
 
 const JobList: React.FC<JobListProps> = ({ jobs }) => {
+  console.log(jobs);
+  if ('error' in jobs) {
+    return <div>No jobs found for the given keyword</div>;
+  }
   if (jobs.length === 0) {
-    return <div>No jobs found for the given keyword.</div>;
+    return <div>Search in searchbar</div>;
   }
 
   return (
     <div
-      style={{display: "flex", justifyContent: "center", alignItems: "center", flexDirection: "column"}}
+      style={{
+        display: "flex",
+        flexWrap: "wrap",
+        justifyContent: "center",
+        gap: "10px",
+        padding: "10px",
+      }}
     >
       {jobs.map((job, index) => (
         <JobCard key={index} job={job} />
