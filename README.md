@@ -9,7 +9,7 @@ Node.js (v16 or later recommended)
 npm or yarn
 
 ## Clone Repository
-git clone https://github.com/RaiyanArsh/JobExtractor-Frontend.git
+<p>git clone https://github.com/RaiyanArsh/JobExtractor-Frontend.git</p>
 cd JobExtractor-Frontend
 
 ## Install Dependencies
