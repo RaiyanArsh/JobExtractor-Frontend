@@ -1,5 +1,6 @@
-# Getting Started
-Follow these steps to set up and run the project on your local machine:
+# Overview
+<p>Watch the demo using below link:</p>
+https://www.loom.com/share/26526924dbff4c74b6856f7f46f925b6?sid=3055e084-d204-46fd-be2c-292f1d48011b
 
 ## Prerequisites
 Ensure you have the following installed on your machine:
@@ -7,7 +8,11 @@ Ensure you have the following installed on your machine:
 Node.js (v16 or later recommended)
 npm or yarn
 
-## Install dependencies
+## Clone Repository
+git clone https://github.com/RaiyanArsh/JobExtractor-Frontend.git
+cd JobExtractor-Frontend
+
+## Install Dependencies
 npm install
 
 ## Running the Application
